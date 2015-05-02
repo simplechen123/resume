@@ -1,0 +1,360 @@
+/*第一页*/
+#recommend{
+	background: url(../images/recbac-2x.jpg)
+		no-repeat center;
+	background-size: cover;
+}
+/*#recommend .write{
+	position: absolute;
+	top: 8%;
+	left: 12%;
+}*/ 
+#recommend h1{
+	color: #70aadc;
+	font-size: 7.2rem;
+	position: absolute;
+	top: 0%;
+	left: 12%;
+	opacity: 0;
+	-webkit-animation: year .6s ease-in forwards;
+	-moz-animation: year .6s ease-in forwards;
+	-ms-animation: year .6s ease-in forwards;
+	-o-animation: year .6s ease-in forwards;
+	animation: year .6s ease-in forwards;
+}
+#recommend strong{
+	color: #ec7161;
+	font-size: 4.8rem;
+}
+#recommend strong span{
+	opacity: 0;
+	float: left;
+	font-family: "GJJZhiYi-M12S271628"; 
+}
+#recommend strong .word-1{
+	position: absolute;
+	top: 0%;
+	left: 12%;
+	-webkit-animation: fall .6s ease-in forwards .6s;
+	-moz-animation: fall .6s ease-in forwards .6s;
+	-ms-animation: fall .6s ease-in forwards .6s;
+	-o-animation: fall .6s ease-in forwards .6s;
+	animation: fall .6s ease-in forwards .6s;
+}
+#recommend strong .word-2{
+	position: absolute;
+	top: 0%;
+	left: 27%;
+	-webkit-animation: fall .6s ease-in forwards 1.2s;
+	-moz-animation: fall .6s ease-in forwards 1.2s;
+	-ms-animation: fall .6s ease-in forwards 1.2s;
+	-o-animation: fall .6s ease-in forwards 1.2s;
+	animation: fall .6s ease-in forwards 1.2s;
+}
+#recommend strong .word-3{
+	position: absolute;
+	top: 0%;
+	left: 42%;
+	-webkit-animation: fall .6s ease-in forwards 1.8s;
+	-moz-animation: fall .6s ease-in forwards 1.8s;
+	-ms-animation: fall .6s ease-in forwards 1.8s;
+	-o-animation: fall .6s ease-in forwards 1.8s;
+	animation: fall .6s ease-in forwards 1.8s;
+}
+#recommend strong .word-4{
+	position: absolute;
+	top: 0%;
+	left: 57%;
+	-webkit-animation: fall .6s ease-in forwards 2.4s;
+	-moz-animation: fall .6s ease-in forwards 2.4s;
+	-ms-animation: fall .6s ease-in forwards 2.4s;
+	-o-animation: fall .6s ease-in forwards 2.4s;
+	animation: fall .6s ease-in forwards 2.4s;
+}
+@-webkit-keyframes year{
+	0 {opacity:0; top: 0%;}
+	100% {opacity:1; top: 8%;}
+}
+@-moz-keyframes year{
+	0 {opacity:0; top: 0%}
+	100% {opacity:1; top: 8%}
+}
+@-ms-keyframes year{
+	0 {opacity:0; top: 0%}
+	100% {opacity:1; top: 8%}
+}
+@-o-keyframes year{
+	0 {opacity:0; top: 0%}
+	100% {opacity:1; top: 8%}
+}
+@keyframes year{
+	0 {opacity:0; top: 0%}
+	100% {opacity:1; top: 8%}
+}
+
+@-webkit-keyframes fall{
+	0 {opacity:0; top: 0%;}
+	30% {opacity:1; top: 25%;}
+	70% { opacity: 1; top: 20%}
+	100% {opacity:1; top: 25%;}
+}
+@-moz-keyframes fall{
+	0 {opacity:0; top: 0%;}
+	30% {opacity:1; top: 25%;}
+	70% { opacity: 1; top: 20%}
+	100% {opacity:1; top: 25%;}
+}
+@-ms-keyframes fall{
+	0 {opacity:0; top: 0%;}
+	30% {opacity:1; top: 25%;}
+	70% { opacity: 1; top: 20%}
+	100% {opacity:1; top: 25%;}
+}
+@-o-keyframes fall{
+	0 {opacity:0; top: 0%;}
+	30% {opacity:1; top: 25%;}
+	70% { opacity: 1; top: 20%}
+	100% {opacity:1; top: 25%;}
+}
+@keyframes fall{
+	0 {opacity:0; top: 0%;}
+	30% {opacity:1; top: 25%;}
+	70% { opacity: 1; top: 20%}
+	100% {opacity:1; top: 25%;}
+}
+
+/*第二页*/
+#want{
+	background: url(../images/wantbac-2x.jpg)
+		no-repeat center;
+	background-size: cover;
+	perspective: 200px;
+}
+#want .stage{
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+#want .write{
+	text-align: center;
+	position: absolute;
+	top: 70%;
+	left: 50%;	
+	-webkit-animation: rota 1s ease-in forwards,trans 3s ease-in forwards 2s;
+	-moz-animation: rota 1s ease-in forwards,trans 3s ease-in forwards 2s;
+	-ms-animation: rota 1s ease-in forwards,trans 3s ease-in forwards 2s;
+	-o-animation: rota 1s ease-in forwards,trans 3s ease-in forwards 2s;
+	animation: rota 1s ease-in forwards,trans 3s ease-in forwards 2s;
+}
+#want h2{
+	color: #70aadc;
+	font-size: 3.8rem;
+	position: relative;
+	top: -50%;
+	left: -50%;
+}
+#want strong{
+	color: #ec7161;
+	font-size: 2.1rem;
+	position: relative;
+/*	top: -50%;*/
+	left: -50%;
+	vertical-align:middle;
+}
+@-webkit-keyframes rota{
+	0 {opacity: 0;-webkit-transform: rotatey(0);}
+	100% {opacity: 1;transform: rotatey(360deg);}
+}
+@-moz-keyframes rota{
+	0 {opacity: 0;transform: rotatey(0);}
+	100% {opacity: 1;transform: rotatey(360deg);}
+}
+@-ms-keyframes rota{
+	0 {opacity: 0;transform: rotatey(0);}
+	100% {opacity: 1;transform: rotatey(360deg);}
+}
+@-o-keyframes rota{
+	0 {opacity: 0;transform: rotatey(0);}
+	100% {opacity: 1;transform: rotatey(360deg);}
+}
+@keyframes rota{
+	0 {opacity: 0;transform: rotatey(0);}
+	100% {opacity: 1;transform: rotatey(360deg);}
+}
+
+@-webkit-keyframes trans{
+	0 {opacity: 0;-webkit-transform: translateZ(0);}
+	50% {opacity: 1; -webkit-transform: translateZ(30px);}
+	100% {opacity: 1;-webkit-transform: translateZ(15px);}
+}
+@-moz-keyframes trans{
+	0 {transform: translateZ(0);}
+	50% {transform: translateZ(30px);}
+	100% {transform: translateZ(15px); }
+}
+@-ms-keyframes trans{
+	0 {transform: translateZ(0);}
+	50% {transform: translateZ(30px);}
+	100% {transform: translateZ(15px); }
+}
+@-o-keyframes trans{
+	0 {transform: translateZ(0);}
+	50% {transform: translateZ(30px);}
+	100% {transform: translateZ(15px); }
+}
+@keyframes trans{
+	0 {transform: translateZ(0);}
+	50% {transform: translateZ(30px);}
+	100% {transform: translateZ(15px); }
+}
+
+
+/*第三页*/
+#infor .cloud,#nav .cloud{
+	width: 50%;
+	height: 30%;
+	background: url(../images/sprite.png)
+		no-repeat 0 -25px;
+	position: absolute;
+	top: 7%;
+}
+#infor img{
+	width: 76%;
+	height: 70%;
+	position: absolute;
+	top: 15%;
+}
+/*第四页*/
+#nav .above{
+	width: 100%;
+	height: 29%;
+	position: relative;
+}
+#nav .happy{
+	width: 43.8%;
+	height: 28%;
+	background: #70AADC;
+	border-radius: 30px;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 28.1%;
+}
+#nav .above span{
+	color: #fff;
+	font: 2.4rem bold;
+	position: absolute;
+	top: 18%;
+	left: 15%;
+}
+#nav .air{
+	width: 25%;
+	position: absolute;
+	top: 24%;
+	left: 62%;
+}
+#nav .below{
+	width: 76%;
+	height: 60%;
+	padding: 0 3%;
+} 
+#nav .below li{
+	width: 45%;
+	height: 25%;
+	float: left;
+	margin-right: 6%;
+	margin-bottom: 6%;
+	text-align: center;
+}
+#nav .below .none{
+	margin-right: 0;
+}
+#nav .below li a{
+	background: #EC7161;
+	display: block;
+	height: 100%;
+	position: relative;
+}
+#nav .below span{
+	color: #fff;
+	font: 2.0rem bold;
+	position: absolute;
+	top: 34%;
+	left: 14%;
+	font-family: "GJJZhiYi-M12S271628"; 
+}
+/*动画小手*/
+#nav .below .hand{
+	-webkit-perspective: 200px;
+	-moz-perspective: 200px;
+	-ms-perspective: 200px;
+	-o-perspective: 200px;
+	perspective: 200px;
+}
+#nav .below .orange a{
+	background: #FFCC66;
+}
+#nav .below .hand span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+#nav .below .hand img{
+	width: 60%;
+	height: 90%;
+	margin-top: 5%;
+	-webkit-animation: point 1s ease-in infinite;
+	-moz-animation: point 1s ease-in infinite;
+	-ms-animation: point 1s ease-in infinite;
+	-o-animation: point 1s ease-in infinite;
+	animation: point 1s ease-in infinite;
+}
+@-webkit-keyframes point{
+	0 {-webkit-transform: translateZ(0);}
+	30% {-webkit-transform: translateZ(20px);}
+	40%{-webkit-transform: translateZ(10px);}
+	70%{-webkit-transform: translateZ(20px);}
+	100% {-webkit-transform: translateZ(0);}
+}
+@-moz-keyframes point{
+	0 {-moz-transform: translateZ(0);}
+	30% {-moz-transform: translateZ(20px);}
+	40%{-moz-transform: translateZ(10px);}
+	70%{-moz-transform: translateZ(20px);}
+	100% {-moz-transform: translateZ(0);}
+}
+@-ms-keyframes point{
+	0 {-ms-transform: translateZ(0);}
+	30% {-ms-transform: translateZ(20px);}
+	40%{-ms-transform: translateZ(10px);}
+	70%{-ms-transform: translateZ(20px);}
+	100% {-ms-transform: translateZ(0);}
+}
+@-o-keyframes point{
+	0 {-ms-transform: translateZ(0);}
+	30% {-ms-transform: translateZ(20px);}
+	40%{-ms-transform: translateZ(10px);}
+	70%{-ms-transform: translateZ(20px);}
+	100% {-ms-transform: translateZ(0);}
+}
+@keyframes point{
+	0 {transform: translateZ(0);}
+	30% {transform: translateZ(20px);}
+	40%{transform: translateZ(10px);}
+	70%{transform: translateZ(20px);}
+	100% {transform: translateZ(0);}
+}
+
+

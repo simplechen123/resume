@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	/*background: #ced8ea;*/
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.page-current{
+    z-index:1;
+}
+.hide{
+	display: none;
+}
+.wrap{
+	margin: 0 12%; 
+}
+/*#view{
+	overflow: hidden;
+}*/
+.container{
+	width: 100%;
+	height: 100%;
+	background: #ced8ea;
+	position: absolute;
+}
+.arrow{
+	display: block;
+	width: 30px;
+	height: 20px;
+	background: url(../images/sprite.png)
+		no-repeat 0px 0px;
+	position: absolute;
+	left: 50%;
+	margin-left: -15px;
+	bottom: 10px;
+	z-index: 2;
+	/*transition: bottom .3s;
+	-webkit-transition: bottom .3s;*/
+	-webkit-animation: arrow 1.5s ease-in infinite;
+	-moz-animation: arrow 1.5s ease-in infinite;
+	-ms-animation: arrow 1.5s ease-in infinite;
+	-o-animation: arrow 1.5s ease-in infinite;
+	animation: arrow 1.5s ease-in infinite;
+}
+@-webkit-keyframes arrow{
+	0 {bottom: 10px; opacity: 1;}
+	80% {bottom: 20px; opacity: 0;}
+	99% {bottom: 10px; opacity: 0;}
+	100% {bottom: 10px; opacity: 1;}
+}
+@-moz-keyframes arrow{
+	0 {bottom: 10px; opacity: 1;}
+	80% {bottom: 20px; opacity: 0;}
+	99% {bottom: 10px; opacity: 0;}
+	100% {bottom: 10px; opacity: 1;}
+}
+@-ms-keyframes arrow{
+	0 {bottom: 10px; opacity: 1;}
+	80% {bottom: 20px; opacity: 0;}
+	99% {bottom: 10px; opacity: 0;}
+	100% {bottom: 10px; opacity: 1;}
+}
+@-o-keyframes arrow{
+	0 {bottom: 10px; opacity: 1;}
+	80% {bottom: 20px; opacity: 0;}
+	99% {bottom: 10px; opacity: 0;}
+	100% {bottom: 10px; opacity: 1;}
+}
+@keyframes arrow{
+	0 {bottom: 10px; opacity: 1;}
+	80% {bottom: 20px; opacity: 0;}
+	99% {bottom: 10px; opacity: 0;}
+	100% {bottom: 10px; opacity: 1;}
+}
+p{
+	font: 1.3rem  "Microsoft YaHei";
+	color: #333;
+	text-align:justify;
+	text-justify:inter-word;
+}
+/*每一页的小导航与返回*/
+.small-nav{
+	padding-top: 15%;
+	width: 38%;
+	height: 18.3%;
+}
+.small-nav .single span{
+	font-family: "GJJZhiYi-M12S271628"; 
+}
+.single{
+	background: #EC7161;
+	font: 2.0rem bold;
+	color: #fff;
+	text-align: center;
+}
+.return{
+	width: 15.6%;
+	height: 15.6%;
+	background:url(../images/return.png)
+		no-repeat right;
+	background-size: contain;
+	position: absolute;
+	top: 6.5%; 
+	right: 12%;
+}
+.return a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/*生活易趣与素拓专栏共用部分*/
+.demo{
+	width: 76%;
+	height: 37.5%;
+	margin-top: 10%;
+	text-align:center;
+}
+.demo img{
+	width: 95%;
+	height: 95%;
+	border: 5px solid #fff;
+	box-shadow: 5px 5px 5px #666;
+}
+.speak{
+	margin-top: 12%;
+	font: 1.4rem "Microsoft YaHei";
+	color: #333;
+}
+.speak img{
+	float: left;
+	width: 4.0rem;
+	height: 4.0rem;
+	margin-top: 3%;
+	max-width: 100%;
+	max-height: 100%;
+}
+.speak p{
+	margin-left: 25%;
+}

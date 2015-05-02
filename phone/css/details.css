@@ -1,0 +1,92 @@
+/*专业技能部分*/
+.skill{
+	width: 63%;
+	height: 58%;
+	padding: 4% 6%;
+	margin-top: 10%;
+	background: #fff;
+ 	opacity: 0.7;
+ 	filter:alpha(opacity=70);
+}
+.skill dt{
+	font: 14px bold "Microsoft YaHei";
+	color: #70AADC;
+}
+.skill dd{
+	font: 13px "Microsoft YaHei";
+	color: #000;
+}
+/*项目经验部分*/
+.expe{
+	height: 64%;
+	margin-top: 6%; 
+}
+.expe section{
+	width: 100%;
+	height: 40%;
+	position: relative;
+}
+.expe .hr{
+	border-bottom: 1px dashed #70AADC;
+}
+.expe img{
+	width: 30%;
+	position: absolute;
+	top: 16%;
+	left: 0;
+}
+.expe section dl{
+	padding-top: 15px;
+	padding-left: 37%;
+	/*text-align: center;	
+*/}
+.expe section dt{
+	font: 16px "Microsoft YaHei";
+	color: #6796E6;
+	margin-bottom: 5px;
+}
+.expe section dd,.exep p{
+	font: 13px  "Microsoft YaHei";
+	color: #333;
+}
+.expe p{
+	color: #6796E6;
+	padding: 15px 10px;
+	line-height: 180%;
+}
+
+
+/*荣誉证书部分*/
+.order{
+	height: 54%;
+	margin-top: 10%; 
+}
+.order li{
+	width: 45%;
+	height: 31%;
+	margin: 0 2% 2% 1%;
+	float: left;
+	border: 2px solid #fff;
+	position: relative;
+}
+.order li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.order li div{
+	width: 100%;
+	color: #fff;
+	font: 12px "Microsoft YaHei";
+	background: #333;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2px 0;
+	text-align: center;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
+
+
+
